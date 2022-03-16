@@ -9,10 +9,10 @@ function generatePassword () {
   var hasUppercase = false;
   var hasNumeric = false;
   var hasSpecialCharacters  = false;
-  var possibleLowercase = 'abcdefghijklmnopqurstuvwxyz';
-  var possibleUppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-  var possibleNumeric = '01234567890';
-  var possibleSpecialCharacters = '~!@#$%^&*()?{}'
+  var possibleLowercase = 'abcdefghijklmnopqurstuvwxyz'.split('');
+  var possibleUppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+  var possibleNumeric = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+  var possibleSpecialCharacters = '~!@#$%^&*()?{}'.split('');
   
   let lowercase = window.confirm('Please indicate whether or not your password will contain lowercase characters');
     
@@ -49,7 +49,21 @@ function generatePassword () {
     } else {
       window.confirm('Your password will not include special');
     }
-  
+
+  let enteredLength = window.prompt('How long would you like your password to be? Please choose between 8 or 128 characters');
+    if (enteredLength > 8 || enteredLength < 128) {
+      window.confirm(`You have chosen to have ${enteredLength} characters in your password.`);
+    } else {
+      window.alert('Your password must be between 8 or 128 chracters!');
+    }
+  let passwordLength = enteredLength;
+
+  if (enteredLength) {
+    if (hasUpperCase) {
+
+    }
+    }
+  }
 };
 
 // Write password to the #password input

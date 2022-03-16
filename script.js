@@ -23,9 +23,32 @@ function generatePassword () {
       window.confirm('Your password will not include lowercase');
     }
   
+  let uppercase = window.confirm('Please indicate whether or not your password will contain uppercase characters');
+    
+    if (uppercase) {
+      hasUppercase = true;
+      window.confirm('Your password will include uppercase');
+    } else {
+      window.confirm('Your password will not include uppercase');
+    }
   
-  
-  
+  let numeric = window.confirm('Please indicate whether or not your password will contain numeric characters');
+    
+    if (numeric) {
+      hasNumeric = true;
+      window.confirm('Your password will include numeric');
+    } else {
+      window.confirm('Your password will not include numeric');
+    }
+
+  let special = window.confirm('Please indicate whether or not your password will contain special characters');
+    
+    if (special) {
+      hasSpecialCharacters = true;
+      window.confirm('Your password will include special');
+    } else {
+      window.confirm('Your password will not include special');
+    }
   
 };
 

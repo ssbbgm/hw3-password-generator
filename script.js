@@ -64,12 +64,12 @@ function generatePassword () {
 
     for (i = 0; i < passwordLength; i++) {
 
-     if (hasLowercase) {
+    if (hasLowercase) {
        generatedPassword +=
        possibleLowercase[Math.floor(Math.random() * possibleLowercase.length)];
      }
      console.log(hasLowercase);
-     if (hasUppercase) {
+    if (hasUppercase) {
       generatedPassword +=
       possibleUppercase[Math.floor(Math.random() * possibleUppercase.length)];
     }
@@ -82,15 +82,14 @@ function generatePassword () {
     if (hasSpecialCharacters) {
       generatedPassword +=
       possibleSpecialCharacters[Math.floor(Math.random() * possibleSpecialCharacters.length)];
-    }
-    console.log(hasSpecialCharacters);
+    console.log(hasSpecialCharacters);}
+  
     if (generatedPassword.length === passwordLength) {
-      break;
+      return generatedPassword;
     }
   }
-    return generatedPassword;
   }
-
+   
 
 // Write password to the #password input
 function writePassword() {

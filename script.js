@@ -51,16 +51,12 @@ function generatePassword () {
       window.confirm('Your password will not include special');
     }
 
-if (hasLowercase || hasUppercase || hasNumeric || hasSpecialCharacters) {
   let enteredLength = window.prompt('How long would you like your password to be? Please choose between 8 or 128 characters');
-    if (parseInt(enteredLength) >= 8 && parseInt(enteredLength) <= 128) {
-      window.confirm(`You have chosen to have ${parseInt(enteredLength)} characters in your password.`);
-    } else {
-      window.alert('Your password must be between 8 or 128 chracters!');
-    }
-  } else {
-    end;
-  }
+        if (parseInt(enteredLength) >= 8 && parseInt(enteredLength) <= 128) {
+          window.confirm(`You have chosen to have ${parseInt(enteredLength)} characters in your password.`);
+        } else {
+          window.alert('Your password must be between 8 or 128 chracters!');
+        }
   
   var passwordLength = parseInt(enteredLength);
   console.log(passwordLength);

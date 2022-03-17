@@ -9,7 +9,7 @@ This project is a password generator that allows the user to choose the lenght o
 
 ![Project Start Page](./assets/images/passwordgenerator.png)
 
-![Demo of the project.](./assets/GIF/hw2advancedcss2.gif)
+![Demo of the project.](./assets/images/GIFS/8characterpw.gif)
 
 ## POINTS OF INTEREST
 
@@ -22,7 +22,7 @@ This project is a password generator that allows the user to choose the lenght o
 
 ![It Me.](https://media.giphy.com/media/1rNXVaP18iF9r58m78/giphy.gif) 
 
-Also, shout out to my tutors for the assitance. They are the real MVPs! 
+Also, shout out to my tutors for the assistance. They are the real MVPs! 
 
 ![Salute](https://media.giphy.com/media/3oeT4JOH1i2Nf7rTmD/giphy.gif)
 

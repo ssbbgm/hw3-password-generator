@@ -59,7 +59,7 @@ debugger
   
   //Making the password length selected by the user into an integer
   var passwordLength = parseInt(enteredLength);
-  console.log(passwordLength);
+
 
 //Function to check and see if the password length has been meet
   function isPasswordLengthMet (password, targetLength) {

@@ -29,4 +29,4 @@ Also, shout out to my tutors for the assistance. They are the real MVPs!
 
 ## DEPLOYED APPLICATION
 
-https://ssbbgm.github.io/hw3-password-generator/
+https://ssbbgm.github.io/password-generator/

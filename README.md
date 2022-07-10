@@ -1,4 +1,4 @@
-# hw3-password-generator
+# Password Generator
 
 # DESCRIPTION
 
